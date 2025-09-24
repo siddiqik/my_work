@@ -54,6 +54,7 @@ print(f"Rectangle 3 area: {area_of_rectangle(9, 2)}")
 
 # Challenge: Add a new function area_of_circle(radius) with proper docstring.
 import math
+
 def area_of_circle(radius: float):
     return math.pi * radius ** 2
 print(f"Circle 1 area: {area_of_circle(5)}")
@@ -128,7 +129,7 @@ r2.describe()
 # ⚠️ Challenge: Introduce a bug by returning width + height instead of width * height.
 # Then fix it ONCE and see that all rectangles are correct again.
 def area_of_rectangle(width: int, height: int) -> int:
-    return width + height
+    return width * height
 
 # 4. DOCUMENTATION MATTERS
 # -------------------------
@@ -136,14 +137,6 @@ def area_of_rectangle(width: int, height: int) -> int:
 #   • Always state the purpose of the function/class
 #   • List parameters with types
 #   • List return values with type
-
-
-###############################################
-# HOMEWORK / PROJECT CHALLENGE
-# -----------------------------
-# Now that you've practiced functions, classes, and docstrings,
-# it's time to start your own modular project.
-
 # Instructions for students:
 # 1. Create a NEW folder for your Shape Toolkit project.
 # 2. Inside that folder, create three files:
@@ -153,20 +146,20 @@ def area_of_rectangle(width: int, height: int) -> int:
 #      - utils.py
 #          * Create helper functions, e.g., convert cm^2 to m^2
 #          * Compare areas of two shapes
-#      - main.py
+#      - main_lab.py
 #          * Import classes from shapes.py
 #          * Import helper functions from utils.py
 #          * Allow user to create shapes (input dimensions)
 #          * Print area and descriptions
 # 3. Make sure every function and class has proper docstrings
-# 4. Run main.py to see interactive results
+# 4. Run main_lab.py to see interactive results
 # 5. Optional Bonus:
-#      - Add a welcome function in main.py (no return value) that explains available shapes
+#      - Add a welcome function in main_lab.py (no return value) that explains available shapes
 #      - Allow user to choose which shapes to create dynamically
 
 # Deliverable:
 #   - One organized folder
-#   - Three files (shapes.py, utils.py, main.py)
+#   - Three files (shapes.py, utils.py, main_lab.py)
 #   - Proper use of functions with and without return values
 #   - Proper use of classes and docstrings
 #   - Modular, readable, and organized code

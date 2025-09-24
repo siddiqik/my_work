@@ -59,5 +59,7 @@ Due Date: Sunday 9/7 @ midnight
         1. Write user data to a JSON file so that the program “remembers” users between runs.
         2. Translate a greeting into one of the listed languages using a library like googletrans.
         3. Use datetime to estimate what year the user can vote, rent a car, or retire.
-        
+
+# aklfjdhso;ajhfo;ahiwfoihwea
+kjhas;jfh;awjhf\
 
